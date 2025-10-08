@@ -5,4 +5,16 @@
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
+
+  <url>
+    <loc>https://bobiac.github.io/get_mac.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://bobiac.github.io/uv_instruction.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
