@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bobiac.github.io/sitemap.xml
