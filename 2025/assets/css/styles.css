@@ -602,12 +602,12 @@ ul li {
 }
 
 .landing-logo {
-  width: 69rem;
+  width: 65rem;
   height: auto;
   object-fit: cover;
   padding: 2rem 0 2rem 0;
-  margin-bottom: 2.5rem;
-  margin-top: 4rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 /*---------------------------------------
