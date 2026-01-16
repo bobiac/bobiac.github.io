@@ -1101,7 +1101,20 @@ ul li {
 
 
 /*---------------------------------------
-  RESPONSIVE STYLES               
+  RESPONSIVE NOWRAP (only on desktop)
+-----------------------------------------*/
+.nowrap-desktop {
+  white-space: normal;
+}
+
+@media screen and (min-width: 992px) {
+  .nowrap-desktop {
+    white-space: nowrap;
+  }
+}
+
+/*---------------------------------------
+  RESPONSIVE STYLES
 -----------------------------------------*/
 
 @media screen and (max-width: 1750px) {
