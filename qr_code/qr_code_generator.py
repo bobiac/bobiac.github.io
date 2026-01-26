@@ -21,7 +21,7 @@ for url, filename in urls:
     qr = qrcode.QRCode(
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_H,
-        box_size=500,
+        box_size=100,
         border=1,
     )
     qr.add_data(url)
