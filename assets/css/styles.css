@@ -315,6 +315,12 @@ strong {
   font-weight: 300;
 }
 
+.text-body-size-justify {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
 ul li {
   color: var(--black-color);
   font-size: 1.25rem;
