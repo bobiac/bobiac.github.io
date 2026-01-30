@@ -1315,6 +1315,17 @@ ul li {
     padding-top: 60px;
   }
 
+  /* Stack contact card content vertically on small screens */
+  .contact-card .d-flex.align-items-center {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-card .d-flex.align-items-center img {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+
 }
 
 @media screen and (max-width: 420px) {
