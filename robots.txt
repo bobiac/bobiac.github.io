@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
+
+# Main sitemap (includes all pages)
 Sitemap: https://bobiac.github.io/sitemap.xml
+
+# 2025 event archive sitemap
+Sitemap: https://bobiac.github.io/2025/sitemap.xml
