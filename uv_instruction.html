@@ -31,10 +31,6 @@
             If you <strong>try all installation options below and consistently encounter issues related to institutional restrictions</strong>, such as blocked downloads or the need for administrator privileges, <strong>please reach out to your IT department</strong> to resolve the issue.
         </div>
 
-        <div class="important alert alert-secondary text-body-size">
-            Once you have attempted the installation process, <strong>please let us know if it was successful or not by filling out <a href="https://forms.gle/xM69LQMNKagDfbcT9" target="_blank">this form</a></strong>.
-        </div>
-
         <div class="note text-body-size">
             Full <strong>uv</strong> installation instructions can be found <a href="https://docs.astral.sh/uv/getting-started/installation/" target="_blank"><strong>here</strong></a>.
         </div>
@@ -81,7 +77,11 @@
 
         <pre class="bg-light p-3 rounded"><code>powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"</code></pre>
 
-        <p class="text-body-size"><strong>2.</strong> If you encounter <em>execution policy</em> issues and cannot or do not want to change your policy settings (see <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4#powershell-execution-policies" target="_blank">this guide</a>), try using <strong>winget</strong>:</p>
+        <p class="text-body-size"><strong>2.</strong> If you encounter <em>execution policy</em> issues, you can update your policy settings for the current user only (see <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4#powershell-execution-policies" target="_blank">this guide</a>) by running the following command first, and then re-running command <strong>1.</strong> above:</p>
+
+        <pre class="bg-light p-3 rounded"><code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</code></pre>
+
+        <p class="text-body-size">If you cannot or do not want to change your policy settings, try using <strong>winget</strong> instead:</p>
 
         <pre class="bg-light p-3 rounded"><code>winget install --id=astral-sh.uv  -e</code></pre>
 
@@ -109,7 +109,7 @@
         <p class="text-body-size">If the command is not recognized, try <strong>restarting your Terminal or PowerShell</strong> (close and reopen it) and run the command again.</p>
 
             <div class="important alert alert-secondary border text-body-size">
-                Don't forget to let us know if you were successful or not at installation by <strong>filling out <a href="https://forms.gle/xM69LQMNKagDfbcT9" target="_blank">this form</a></strong> — simply answer <em>yes</em> or <em>no</em> so we can track how many of you were able to complete it successfully. Having uv set up ahead of time will ensure a smooth start to the course and allow us to focus fully on the content from day one. 
+                Having uv set up ahead of time will ensure a smooth start to the course and allow us to focus fully on the content from day one. If you encounter any issues, please don't hesitate to reach out to us: <a href="mailto:email.bobiac@gmail.com">email.bobiac@gmail.com</a>.
             </div>
         
         <br><br>  
